@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "notes-flask-edu-project"
+version = "0.1.0"
+description = ""
+authors = ["olgapasichnyuk <olgapasichnyuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "notes_flask_edu_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.3"
+flask-login = "^0.6.2"
+flask-sqlalchemy = "^3.0.3"
+mysqlclient = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
